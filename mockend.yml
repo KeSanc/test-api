@@ -1,17 +1,3 @@
 models:
   Station:
-    data: [{
-      "id": "SM01",
-      "name": "Otorongo Roundabout",
-      "address": "Sensor located at the intersection of 3 de Noviembre Ave. and Simón Bolívar",
-      "position": {
-        "lat": -1.047216,
-        "lng": -80.463306
-      },
-      "imageUrl": "otorongo_roundabout.jpg",
-      "maxNoiseLevelCategory": "EQ1",
-      "maxNoiseLevelCategoryName": "Social Services Zone",
-      "daytimePeriod": 55,
-      "nighttimePeriod": 45,
-      "stationType": "noise"
-    }]
+    data: [{"id": "SM01","name": "Otorongo Roundabout","stationType": "noise"}]
