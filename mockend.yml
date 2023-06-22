@@ -1,6 +1,6 @@
 models:
   Station:
-    data: [{
+    data: [
  
     {
       "id": "SM01",
@@ -46,6 +46,6 @@ models:
       "daytimePeriod": 70,
       "nighttimePeriod": 55,
       "stationType": "noise"
-    }
+    
   
 }]
