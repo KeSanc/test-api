@@ -1,3 +1,52 @@
 models:
   Post:
-    data: [{ title: 'Title 1' }, { title: 'Title 2' }]
+    data: {
+  "stations": [
+    {
+      "id": "SM01",
+      "name": "Otorongo Roundabout",
+      "address": "Sensor located at the intersection of 3 de Noviembre Ave. and Simón Bolívar",
+      "position": {
+        "lat": -1.047216,
+        "lng": -80.463306
+      },
+      "image_url": "otorongo_roundabout.jpg",
+      "max_noise_level_category": "EQ1",
+      "max_noise_level_category_name": "Social Services Zone",
+      "daytime_period": 55,
+      "nighttime_period": 45,
+      "station_type": "noise"
+    },
+    {
+      "id": "SM02",
+      "name": "Another Station",
+      "address": "Some Address",
+      "position": {
+        "lat": 0.0,
+        "lng": 0.0
+      },
+      "image_url": "another_station.jpg",
+      "max_noise_level_category": "EQ2",
+      "max_noise_level_category_name": "Residential Zone",
+      "daytime_period": 60,
+      "nighttime_period": 50,
+      "station_type": "noise"
+    },
+    {
+      "id": "SM03",
+      "name": "Third Station",
+      "address": "Another Address",
+      "position": {
+        "lat": 10.0,
+        "lng": 20.0
+      },
+      "image_url": "third_station.jpg",
+      "max_noise_level_category": "EQ3",
+      "max_noise_level_category_name": "Commercial Zone",
+      "daytime_period": 70,
+      "nighttime_period": 55,
+      "station_type": "noise"
+    }
+  ]
+}
+
