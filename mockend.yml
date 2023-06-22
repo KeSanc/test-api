@@ -1,7 +1,7 @@
 models:
   Station:
     data: [{
-  "stations": [
+ 
     {
       "id": "SM01",
       "name": "Otorongo Roundabout",
@@ -47,5 +47,5 @@ models:
       "nighttimePeriod": 55,
       "stationType": "noise"
     }
-  ]
+  
 }]
